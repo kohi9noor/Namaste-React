@@ -1,6 +1,6 @@
 # _Chapter 02 - Igniting our App_
 
-## Q: What os `NPM`?
+## Q: What is `NPM`?
 A: It is a tool used for package management and the default package manager for Node projects. `NPM is installed when NodeJS` is intalled on a machine. IT comes with a command-line interface (CLI) used to interact with the online database of NPM. This database is called the NPM Registry, and it hosts pubilc and private `package`. To add or update package, we u7se the NPM CLI to interact with this database.
 
 ### How to initlialize `npm`?
@@ -47,7 +47,7 @@ npm install -D parcel
 ## Q: What is `.parcel-cache`?
 A: `.parcel-cache` is used parcel(bundler) to reduce the bulding time. IT stores information about your project when parcel builds it, so that when it rebuilds, it dosen't have to re-parce and re-analyze from scratch, It's a key reason why parcel can be so fast in development mode.
 
-## Q: Wjat is 'npx' ?
+## Q: What is 'npx' ?
 A: `npx` is a tool used to excute the packages. It comes with the npm, when you installed npm abouve 5.2.0 version then automatically npx will installed. It is an npm package runner that can execute any package that you want from the npm registry without even installing that package.
 
 ## Q: What is difference between `dependencies` vs `devDependencies`?
@@ -64,7 +64,7 @@ instead of just,
 npm install --save
 ```
 
-## Q: What is `TRee Shaking`?
+## Q: What is `Tree Shaking`?
 A: `Tree shaking` is process of removing the unwanted code that we do not use while developing the application.
 In coputing, tree shaking is a dead code elimination technique that is applied when optimizing code.
 
