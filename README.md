@@ -20,3 +20,9 @@ This Repository containing the work and assignments including projects which I m
 - [Assignment Solution](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2003%20-%20Laying%20the%20foundation/Theory/Session%202%20Theory.md)
 - [HandWritten Notes](https://drive.google.com/drive/folders/1oegP1yqNyXC928kWoMX4GZ85y6Hs3Blv)
 
+# [Chapter 04](https://github.com/kohi9noor/Namaste-React/tree/main/Chap%2004%20-%20Talk%20is%20CHeap%2C%20Show%20me%20the%20code) -Talk is Cheap, Show me the code (Date: 27-9-2023)
+- [App Code](https://github.com/kohi9noor/Namaste-React/tree/main/Chap%2004%20-%20Talk%20is%20CHeap%2C%20Show%20me%20the%20code/Coding)
+- [Assignment](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2004%20-%20Talk%20is%20CHeap%2C%20Show%20me%20the%20code/Assignment.md)
+- [Assignment Solution](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2004%20-%20Talk%20is%20CHeap%2C%20Show%20me%20the%20code/Theory/Session%204%20Theory.md)
+- [HandWritten Notes](https://drive.google.com/drive/folders/1oegP1yqNyXC928kWoMX4GZ85y6Hs3Blv)
+
