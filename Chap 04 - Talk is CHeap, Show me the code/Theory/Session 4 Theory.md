@@ -63,11 +63,11 @@ return (
 
 ## Q: What is `Reconciliation` in React?
 
-A: `Reconsiliation` is the process through which React updates the Brower DOM adn makes React work Faster. React whould first calculate the differnce between the real DOM and the copy of DOM (virtual DOM) When there's update of components. React stores a copy of browser DOm which is called `Virtual DOM`. When We make changes or add data, React creates a new Virtual DOM and Compares it with previous one Comparsion is don by `Diffing Algorithm`. React Compares the Virtual DOM with Real DOm. It finds out the changed nodes and updates only the changed nodes in Real DOM leaving the rest nodes as it is. This process is called `Reconciliation`.
+A: `Reconsiliation` is the process through which React updates the Brower DOM and makes React work Faster. React whould first calculate the differnce between the real DOM and the copy of DOM (virtual DOM) When there's update of components. React stores a copy of browser DOM which is called `Virtual DOM`. When We make changes or add data, React creates a new Virtual DOM and Compares it with previous one Comparsion is don by `Diffing Algorithm`. React Compares the Virtual DOM with Real DOM. It finds out the changed nodes and updates only the changed nodes in Real DOM leaving the rest nodes as it is. This process is called `Reconciliation`.
 
 ## Q: What is `React Fiber`?
 A: React is a concept of ReactJS that is used to render a system faster, smoother and smarter. 
-the fiber reconciler, which became the defailt reconsiler for react 16 and above, is a complete rewrite of React's reconciliation algorithm to solve long-standing issues in React.
+the fiber reconciler, which became the default reconsiler for react 16 and above, is a complete rewrite of React's reconciliation algorithm to solve long-standing issues in React.
 
 Because Fiber Is asynchronous, React can:
 - Pause, Resume, and Restart rendering work on components as a new updaes come in
@@ -75,7 +75,7 @@ Because Fiber Is asynchronous, React can:
 - split work into chunks and prioritize tasks based on importance.
 
 ## Q: Why do we need `keys` in React?
-A: A `key` is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list changed, updated, or deketed. In other words, we can say that keys are unique IDentifier used to give an identity to the element in the lists. Keys SHould be given to the elements within the array to give the element a stable indetity
+A: A `key` is a special attribute you need to include when creating lists of elements in React. Keys are used in React to identify which items in the list changed, updated, or deleted. In other words, we can say that keys are unique Identifier used to give an identity to the element in the lists. Keys Should be given to the elements within the array to give the element a stable indetity
 ### Example
 
 ```
@@ -84,7 +84,7 @@ A: A `key` is a special attribute you need to include when creating lists of ele
 <li key={2}>3</li>
 ```
 ## Q: Can we use `Index as keys` in React?
-A: Yes, we can use the `index as keys`, but it is not considered as a good practice to use them bacause if the order of items may change. This can negatively impact performance and may cause issues with component state. Keys are taken from each objecr which is being renderd. there might be a possiblity that if we modify the incoming data react may render them in unsual order.
+A: Yes, we can use the `index as keys`, but it is not considered as a good practice to use them bacause if the order of items may change. This can negatively impact performance and may cause issues with component state. Keys are taken from each object which is being renderd. there might be a possiblity that if we modify the incoming data react may render them in unsual order.
 
 
 ## Q: What is `props in React`? Ways to.
