@@ -1,7 +1,7 @@
 # _Chapter 02 - Igniting our App_
 
 ## Q: What is `NPM`?
-A: It is a tool used for package management and the default package manager for Node projects. `NPM is installed when NodeJS` is intalled on a machine. IT comes with a command-line interface (CLI) used to interact with the online database of NPM. This database is called the NPM Registry, and it hosts pubilc and private `package`. To add or update package, we u7se the NPM CLI to interact with this database.
+A: It is a tool used for package management and the default package manager for Node projects. `NPM is installed when NodeJS` is intalled on a machine. IT comes with a command-line interface (CLI) used to interact with the online database of NPM. This database is called the NPM Registry, and it hosts pubilc and private `package`. To add or update package, we use the NPM CLI to interact with this database.
 
 ### How to initlialize `npm`?
 ```
@@ -34,7 +34,7 @@ npm install -D parcel
 `-D` is used for development and as a development dependency
 
 - parcel Commands : 
-      - Fpr development build:
+      - For development build:
       ```
       npm parcel <entry_point>
       ```
