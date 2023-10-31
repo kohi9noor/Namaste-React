@@ -3,7 +3,7 @@
 # Chapter 05 - Let's get Hooked!
 
 #### Q: What is the difference between `Named export`, `Default export`, and `* as export`?
-A: ES^ provides us to import & export a module and use it in other files. ES6 provides two ways to export per file. Then import the specific exports they want to surrounded in `{}` braces. The name of imported module has to be the same as the name of the exported module. IN `Named export`, the component is exported from MyComponent.js file like:
+A: ES6 provides us to import & export a module and use it in other files. ES6 provides two ways to export per file. Then import the specific exports they want to surrounded in `{}` braces. The name of imported module has to be the same as the name of the exported module. IN `Named export`, the component is exported from MyComponent.js file like:
 
 ```
 export const MyComponenet = () => {} 
@@ -78,11 +78,11 @@ A: In React version 16.8, React introduced a new pattern called Hooks. React Hoo
 - useCallback: It returns a memorized version of a callback to help a child componenet not re-render unnecssarily.
 - useMemo: It returns a memorized value that helps in performance optimizations.
 - useRef: It returns a ref object with a current property. The ref object is mutable. It is mainly used to access a child component imperatively.
-- useLayoutEffect: It fires at the end of all Dom mutations, it's best to use useEffect as mush as possible over this one as the useLayoutEffect fires synchronously.
+- useLayoutEffect: It files at the end of all Dom mutations, it's best to use useEffect as mush as possible over this one as the useLayoutEffect fires synchronously.
 - useDebugValue: Helps to display a label in DevTools for custom hooks.
 
 #### Q: Why do we need `useState Hook`?
-A: `useState hook` is used to maintain the state in out React application. it keeps track of the state changes so basically useState has the ability encapsulate local state in a functional component. The useState hook is a special function that takes the `initial state` as an `argument` and `returns an array` pf two entries. UseState encapsulate only singular value from the state, for multiple state need to have iseState calls.
+A: `useState hook` is used to maintain the state in out React application. it keeps track of the state changes so basically useState has the ability encapsulate local state in a functional component. The useState hook is a special function that takes the `initial state` as an `argument` and `returns an array` of two entries. UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
 
 #### Syntax for useState hook
 ```
