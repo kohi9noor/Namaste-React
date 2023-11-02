@@ -40,3 +40,9 @@ This Repository containing the work and assignments including projects which I m
 - [Assignment Solution](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2006%20Exploring%20the%20world/Theory/Session%206%20Theory.md)
 - [HandWritten Notes](https://drive.google.com/drive/folders/1oegP1yqNyXC928kWoMX4GZ85y6Hs3Blv)
 
+
+# [Chapter 07](https://github.com/kohi9noor/Namaste-React/tree/main/Chap%2007%20-%20Finding%20the%20Path) -Finding 
+- [App Code](https://github.com/kohi9noor/Namaste-React/tree/main/Chap%2007%20-%20Finding%20the%20Path)
+- [Assignment](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2007%20-%20Finding%20the%20Path/Assignment.md)
+- [Assignment Solution](https://github.com/kohi9noor/Namaste-React/blob/main/Chap%2007%20-%20Finding%20the%20Path/Theory/Session%207%20Theory.md)
+- [HandWritten Notes](https://drive.google.com/drive/folders/1oegP1yqNyXC928kWoMX4GZ85y6Hs3Blv)
